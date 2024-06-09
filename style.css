@@ -1,0 +1,230 @@
+
+img.logo{
+    /* background-color: brown; */
+    width: auto;
+    height: 48px;
+    margin: 0 50px;
+}
+.collapse.navbar-collapse{
+    justify-content: end;
+    padding: 0 50px;
+}
+ul.navbar-nav .nav-item{
+    margin: 0 10px;
+}
+ul.navbar-nav .nav-item a{
+    color: white;
+    padding-top: 25px;
+}
+ul.navbar-nav .nav-item a.nav-link.active{
+    color: white;
+    border-top: 4px solid #ae9768; 
+    padding: 20px 0 35px;
+}
+
+nav.bg-body-tertiary{
+    background-color: transparent !important;
+    height: 80px;
+}
+.background-img{
+    margin-top: -80px;
+    background: url("images/drew-coffman-1872.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+.background-text p.script{
+    width: 120%;
+}
+ul.navbar-nav .nav-item a:hover{
+    color: #ae9768;
+}
+ul.navbar-nav .nav-item a.nav-link.active:hover{
+    color: #ae9768;
+}
+*{
+    font-family: "Alegreya Sans", sans-serif;
+}
+.background-img div.background-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 46px;
+}
+.background-img p{
+    font-size: 22px;
+    margin: 0px 0px 5px; 
+}
+.background-img h1{
+    font-size: 76px;
+    margin: 0px 0px 18px;
+}
+.background-img .background-text p.script{
+    margin: 0px 0px 20px;
+    line-height: 2rem;
+}
+.background-text button{
+    font-size: 16px;
+    margin: 0px 0px 12px;
+    padding: 15px 28px;
+    border: 2px solid #ae9768;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+}
+.background-text button.right{
+    margin-left: 12px;
+    border-color: white;
+    background-color: transparent;
+}
+.background-text button.left{
+    background-color: #ae9768;
+}
+.background-text button:hover{
+background-color: white;
+color: black;
+}
+.second-section {
+    width: 40%;
+    display: inline-block;
+    padding: 0px 0px 0px 100px ;
+    vertical-align: middle;
+}
+
+.second-img ,.third-img{
+width: 40%;
+display: inline-block;
+padding: 0px 50px;
+margin: 30px;
+}
+.second-img img{
+    width: 100%;
+    /* margin-top: -190px; */
+}
+span img{
+    width: 50px;
+}
+.second-section-script.text ,.feature ,.content{
+font-size: 17px;
+}
+.content{
+    padding: 5px 0px;
+}
+.content-head{
+    padding-bottom: 15px;
+}
+.container-dot{
+    margin: 30px 0px;
+    padding: 30px 0px;
+}
+.second-section .text{
+    margin-bottom: 40px;
+}
+.all-third-section{
+    background-color: #f8f8f8;
+    margin: 70px 0px;
+    padding: 100px 0px;
+    width: 100%;
+}
+.third-section{
+    width: 50%;
+    display: inline-block;
+    padding: 0px 100px 0px 60px ;
+    vertical-align: middle;
+}
+.third-img img{
+    width: 100%;
+}
+.fourth-img{
+    float: left;
+    width: 33.3%;
+    padding: 40px 20px;
+}
+.fourth-img img{
+    width: 100%;
+}
+.all-fourth-section{
+    text-align: center;
+}
+.clear{
+    clear:both;
+}
+.fourth-content-head{
+    padding: 30px 0px 10px;
+}
+.fourth-content{
+    padding: 0px;
+}
+.contact{
+    background-color: #f8f8f8;
+    padding: 100px;
+}
+.fourth-features span img{
+background-color: #ae9768;
+border-radius: 50%;
+}
+.map{
+    float: right;
+    width: 50%;
+}
+.map img {
+    width: 100%;
+}
+.contact-left{
+    float: left;
+    width: 40%;
+}
+.fourth-features{
+    padding: 10px;
+}
+.fourth-features span{
+    margin: 0px 5px;
+}
+.contact-left h2{
+    padding-bottom: 10px;
+}
+p.contact-details{
+    padding-top: 10px;
+    color: #969696;
+}
+.footer{
+    background-color: #403d38 ;
+color: #969696;   
+padding: 30px; 
+}
+.footer h4{
+    color: white !important;
+}
+.foot{
+    float: left;
+    width: 23%;
+    margin: 30px 10px;
+}
+.foot-icons img{
+    width: 20px;
+    
+}
+.foot-icons{
+    border-bottom: 0.5px solid #636363;
+    padding: 10px 0px;
+}
+.foot-icons.last-foot-icon{
+    border-bottom: none;
+
+}
+.last-footer{
+    background-color: #353330;
+    color: #969696;
+    text-align: center;
+    padding: 50px 0px 40px;
+}
+.last-footer img{
+    margin: 20px;
+}
+.social img{
+    background-color: #484540;
+    margin: 10px 2px;
+    border-radius: 50%;
+}
